@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&display=swap');
+
+.row_father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.first__div, 
+.second__div{
+    width:750px;
+    height: 800px;
+    margin-left: 100px;
+    transform: scale(1.2);
+    
+}
+.down__picture{
+    padding-right: 15px;
+    width: 400px;
+    height: 450px;
+}
+.suits__picture{
+    padding-left: 15px;
+}
+.image_div_pieces_father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div__pieces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 530px;
+    position:relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.div_image{
+    width:370px;
+    height: 438px;
+    border-bottom: 4px solid pink;
+    transition: .3s;
+    object-fit: cover;
+
+    &:hover{
+        transform:translateY(-10px)
+    }
+}
+
+.texts__div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.div__article{
+    width: 212px;
+    height: 36px;
+    color: #1F1F1F;
+    font-family:'Indie Flower', cursive;
+    font-size: 15px;
+    font-weight:600;
+    line-height: 19px;
+}
+.div__price{
+    width:70px;
+    height: 23px;
+    font-family: "Poppins" ;
+    color:#FDA3C4;
+    margin-left:50px;
+}
+.heart__svg{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+}
+.main__article{
+    font-size: 54px;
+    font-family:'Indie Flower', cursive;
+    color:pink;
+    margin-left: 150px;
+}
+.main__next_article{
+    font-size: 25px;
+    font-weight:600;
+    color: #1F1F1F;
+    line-height: 30px;
+    font-family:'Indie Flower', cursive;
+    position: absolute;
+    left: 152px;
+    top:47px;
+}
+.second__main_div{
+    position: relative;
+}
+
+.cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.7s ease;
+    border: none;
+    background: none;
+    margin-left:860px;
+    margin-top: 40px;
+   }
+   
+.cta:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #b1dae7;
+ width: 45px;
+ height: 45px;
+ transition: all 0.7s ease;
+}
+
+.cta span {
+ position: relative;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ color: #234567;
+}
+
+.cta svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke:red;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+ width: 100%;
+ background:pink;
+}
+
+.cta:hover svg {
+ transform: translateX(0);
+}
+
+.cta:active {
+ transform: scale(0.95);
+}
+.that_image{
+    margin-top: 60px;
+    width:100%;
+}
+.big__store_png{
+    margin-left:700px;
+    margin-top: 60px;
+    z-index: -1;
+    margin-bottom: 70px;
+}
+.third__div{
+    position: relative;
+    margin-bottom: 100px;
+}
+.store__div_article{
+    position: absolute;
+    width: 261px;
+    font-weight:700;
+    font-size: 54px;
+    color:#1F1F1F;
+    font-family:'Poppins';
+    top: 196px;
+    left:545px; 
+}
+.store__div_text{
+    font-weight:700;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    line-height: 20px;
+    color: #1F1F1F;
+    position: absolute;
+    top: 423px;
+    right:330px;
+    width: 280px;
+    height:auto;
+    text-align: left;
+}
+.store__div_location{
+    width: 220px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F1F1F;
+    position: absolute;
+    font-family:"Poppins", sans-serif;
+    top: 643px;
+    left:454px;
+}
+.location__img{
+    position: absolute;
+    top: 583px;
+    right: 429px;
+}
+.top__goods{
+    height: 60px;
+    width: 100%;
+    background-color: #FDA3C4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top__goods_text{
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 30px;
+   color: red;
+   font-family:cursive ;
+}
+.previous__last_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.double__div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 274px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.double__divbox{
+    width: 274px;
+    height: 300px;
+}
+.double__img{
+    width: 264px;
+    height: 238px;
+    object-fit: cover;
+    border-bottom:3px solid pink;
+}
+.previous__prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.double__textabout{
+    width: 169px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.double__divbox__next{
+    margin-left: 20px;
+    width: 370px;
+    height: 600px;
+}
+.double__imgtwo{
+    width: 360px;
+    height: 507px;
+    object-fit: cover;
+    border-bottom:3px solid pink;
+}
+.suits__div__images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suits__img_df{
+    width: 300px;
+    height: 400px;
+}
+.icons__father{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: pink;
+    padding: 30px;
+    border-radius: 30px;
+}
+.react__icon{
+    width: 100px;
+    height: 100px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.last__last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: aquamarine;
+    border-radius:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last__last img{
+    border-radius: 20px;
+}
+.last__div__text{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 103px;
+}
+.last__div__about{
+    width: 332px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
+}
+.last_div img{
+    margin-right: 10px;
+}
+.last__booriva{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    color: red;
+    margin-top: 70px;
+}
+.last__div__second img{
+   margin-left: 10px;
+}
+.pinkhoodie{
+    margin-top:10px;
+}

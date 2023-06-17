@@ -1,0 +1,110 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 150px;
+    font-family: 'Poppins', sans-serif;
+
+    &__logo{
+        margin-left: 130px !important;
+        margin-right: 216px !important;
+    }
+
+    &__phone_number, 
+    &__location
+    {   
+        color: pink;
+        font-size: 20px;
+        font-weight:700;
+    }
+    &__location_logo, 
+    &__phono_logo{
+        font-size:25px;
+        padding-right:10px;
+        padding-left:20px;
+        color: pink;
+    } 
+     &__heart__logo, 
+    &__card__logo{
+        font-size:30px;
+        padding-right:10px;
+        padding-left: 40px;
+    }
+    &__search__logo{
+        font-size: 30px;
+        padding-right: 30px;
+    }
+
+    &__input{
+        width:250px;
+        height:40px;
+        border-radius: 20px;
+        border:2px solid pink;
+        outline: none;
+        font-size: 25px;
+
+        
+    }
+    &__search__logo, 
+    &__heart__logo, 
+    &__card__logo{
+        transition:.3s;
+    }
+    &__search__logo:hover{
+        color:pink;
+    }
+    &__heart__logo:hover{
+        color: pink;
+    }
+    &__card__logo:hover{
+        color: pink;
+    }
+
+
+}
+
+
+.nav__second_row{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap:95px;
+   margin-top: 30px;
+   font-size: 25px;
+   font-weight:700;
+   
+   &__navbar__Links{
+      color:black; 
+      transition: .3s;
+      position: relative;
+   }
+
+   &__navbar__Links:hover{
+    color: pink;
+    transform: scale(1.1);
+}
+
+}
+.second_row__navbar__Links{
+    color:black; 
+    transition: .3s;
+    position: relative;
+ }
+
+.second_row__navbar__Links:hover{
+  color: pink;
+  transform: scale(1.1);
+}
+
+.nav__first_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:0;
+   
+}
+.navbar__link_active{
+    color:pink;
+    transform: scale(1.1);
+}
